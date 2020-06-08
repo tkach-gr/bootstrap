@@ -1,0 +1,226 @@
+body {
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+}
+
+.purple-bg {
+    background-color: #7952B3;
+}
+
+.gray-color {
+    color: gray;
+}
+
+.dark-green-color {
+    color: #366;
+}
+
+.c {
+    color: #727272;
+}
+
+.nt {
+    color: #2f6f9f;
+}
+
+.na {
+    color: #006ee0;
+}
+
+.s {
+    color: #d73038;
+}
+
+.justify-self-end {
+    justify-self: flex-end;
+}
+
+.navbar {
+    color: white;
+}
+
+.navbar .navbar-nav-svg {
+    width: 20px;
+    height: 20px;
+}
+
+a.navbar-brand {
+    color: rgba(255, 255, 255, 0.85);
+}
+
+header .navbar-nav.container-fluid {
+    flex-wrap: wrap;
+}
+
+a.nav-link {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.85);
+    transition: all 0.15s linear;
+}
+
+a.nav-link:hover {
+    color: rgb(255, 255, 255);
+}
+
+a.btn-bd-download {
+    font-weight: 600;
+    color: #ffe484;
+    border-color: #ffe484;
+    margin-left: 16px;
+}
+
+a.btn-bd-download:hover {
+    background-color: #ffe484;
+    color: black;
+}
+
+a.btn-bd-download:focus {
+    box-shadow: rgba(255, 228, 132, 0.28) 0 0 0 3px;
+}
+
+.active a {
+    font-weight: 600;
+    color: white;
+}
+
+.dropdown-item.active {
+    color: black;
+    font-weight: 600;
+    background: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%23292b2c' d='M2.3 6.73L.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z'/%3e%3c/svg%3e") no-repeat .4rem .6rem/.75rem .75rem;
+}
+
+main {
+    padding: 80px 0;
+    margin: 0 15px;
+}
+
+main .btn-bd-primary {
+    background-color: #7952b3;
+    color: white;
+}
+
+main .btn-bd-primary:hover {
+    background-color: #614092;
+    color: white;
+}
+
+main .btn-bd-primary:focus {
+    box-shadow: rgba(97, 64, 146, 0.4) 0 0 0 3px;
+}
+
+main h1 {
+    font-size: 400%;
+    line-height: 1;
+}
+
+main .text {
+    color: #495057;
+    font-size: 150%;
+    font-weight: 400;
+}
+
+.btn-xl {
+    margin-right: 14px;
+    padding: 13px 32px;
+    font-size: 120%;
+    font-weight: 600;
+}
+
+.ads {
+    max-width: 340px;
+    background-color: rgba(0, 0, 0, 0.1);
+    margin: 30px 0;
+    padding: 15px 15px 15px 160px;
+    font-size: 80%;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.ads a {
+    color: #333;
+    text-decoration: none;
+}
+
+.ads img {
+    float: left;
+    margin-left: -145px;
+    max-width: 130px;
+}
+
+.installation-icon {
+    background-color: #3EB058;
+}
+
+.bootstrap-cdn-icon {
+    background-color: #1D8AFF;
+}
+
+.bootstrap-icons-icon {
+    background-color: #8966BC;
+}
+
+.official-themes-icon {
+    background-color: #E04C5A;
+}
+
+.icon-md {
+    padding: 10px;
+    color: white;
+    border-radius: 13px;
+}
+
+footer {
+    font-size: 90%;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+}
+
+footer ul li:nth-child(n + 2) {
+    margin-left: 20px;
+}
+
+footer a {
+    font-weight: 600;
+    color: #495057;
+}
+
+footer a:hover, a:focus {
+    color: #007bff;
+}
+
+footer p {
+    margin-bottom: 0;
+}
+
+@media (max-width: 990px) {
+    .btn-bd-download {
+        display: none;
+    }
+}
+
+@media (max-width: 790px) {
+    header .navbar {
+        flex-direction: column;
+    }
+
+    header .navbar .navbar-brand {
+        margin-right: 0;
+    }
+
+    header .navbar-nav.container-fluid {
+        justify-content: center !important;
+    }
+}
+
+@media (max-width: 1200px) {
+    main h1 {
+        font-size: calc(1.525rem + 3.3vw);
+    }
+
+    main .lead {
+    font-size: calc(1.275rem + .3vw);
+    }
+}
